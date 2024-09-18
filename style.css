@@ -91,7 +91,7 @@ nav a:hover, nav li.active a {
 }
 
 .content-container {
-  padding: 160px 20px ;
+  padding: 40px 20px ;
 }
 
 
@@ -121,6 +121,10 @@ nav a:hover, nav li.active a {
   padding: 20px;
  }
 
+.portrait-credit{
+  font-size: 12px;
+
+}
 
 .btn-branding {
   border-radius: 4px;
@@ -222,4 +226,4 @@ nav li {
   font-size: 14px;
 }
 
-}
+} 

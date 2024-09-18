@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>About Alessandra</title>
+  <title>Front-end developer - About Alessandra</title>
    <meta
       name="description"
-      content="About Alessandra."/>
+      content="About Alessandra - Front-end developer."/>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -34,6 +34,17 @@
 </head>
 
 <body>
+<div class="container">
+        <nav class="d-flex justify-content-between">
+        <ul>
+          <li><a href="index.html" title="Homepage">Home</a></li>
+          <li class="active"><a href="about.html" title="About Alessandra">About</a></li>
+          <li><a href="works.html" title="Alessandra's work">Work</a></li>
+          <li><a href="contact.html" title="Contact Alessandra">Contact</a></li>
+        </ul>
+        </nav>
+      </div>
+
 <div class="content-container container">
   <div class="row">
     
@@ -41,14 +52,38 @@
   <h1 class="mb-4">Hi! I am Alessandra Figini</h1>
   <h2 class="mb-4">Front-end developer based in Italy</h2>
   <p class="mb-5">Here is what will hopefully be a rather longer paraghraph about myself and my studies and projects. I think I might need a few more lines to see how this paragraph fits within the page layout.</p>
-  <a href="#" class="btn btn-branding">View my projects</a>
+  <a href="works.html" class="btn btn-branding">View my projects</a>
   </div>
 
   <div class="col">
       <img src="images/Illustration_Selfie_MC 1.png" class="img-fluid rounded portrait-print" alt="A black and white portrait print" />
+      <p class="portrait-credit text-muted text-end">Portrait print by<a href="http://www.maracozzolino.com/" target="_blank" title="Mara Cozzolino - mokuhanga"> Mara Cozzolino</a></p>
     </div>
+    
 
   </div>
   </div>
+
+  <div class="container">
+      <footer>
+        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+          <div><h4>Work Inquiry</h4>
+<p class="text-muted">Let's work together</p>
+</div>
+<div>
+<a href="contact.html" class="btn btn-branding mt-3" title="Contact Alessandra">Contact me</a>
+</div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:webkotoba@gmail.com" class="email-link" title="Email Alessandra">webkotoba@gmail.com</a>
+        </div>
+        <div class="social-links text-center mb-5">
+          <a href="https://www.instagram.com/" target="_blank" title="Instagram link"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/Alex-346" target="_blank" title="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+          <a href="https://x.com/" target="_blank" title="X link"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <p class="text-muted text-center">This project was coded by Alessandra and it's open-sourced on <a href="https://github.com/Alex-346/SC-Responsive-Portfolio-Project" target="_blank" title="GitHub Respository">GitHub</a></p>
+      </footer>
+    </div>
 </body>
 </html>
