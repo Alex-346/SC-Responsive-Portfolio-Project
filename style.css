@@ -116,14 +116,11 @@ nav a:hover, nav li.active a {
   margin: 30px;
 }
 
-.portrait-print {
-  border-radius: 4px;
-  padding: 20px;
- }
+
 
 .portrait-credit{
-  font-size: 12px;
-
+  font-size: 14px;
+padding-right:36px;
 }
 
 .btn-branding {
